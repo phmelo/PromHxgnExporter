@@ -20,11 +20,5 @@ namespace PHExporterWebAPI
             return strArray.Any(s => str.Contains(s)) ? "CAPITAL" : "FORACAPITAL";
         }
 
-
-        public static string GetUnitPrefixType(this String str)
-        {
-            return str;
-        }
-
     }
 }

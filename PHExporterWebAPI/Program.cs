@@ -21,7 +21,7 @@ namespace PHExporterWebAPI
             Host.CreateDefaultBuilder(args)
                 .ConfigureServices(services =>
                 {
-                    services.AddHostedService<CustomMetricsCollector>();
+                    services.AddHostedService<Services.CustomMetricsCollector>();
                 })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
